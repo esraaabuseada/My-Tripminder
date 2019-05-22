@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TripDetails.AddNote"
+    android:background="#FFFFFF">
+
+
+    <ListView
+        android:id="@+id/theList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/black"
+        android:transcriptMode="normal"
+        android:layout_weight="0.1">
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.9"
+        android:orientation="horizontal"
+
+
+        android:background="#FFFF">
+
+        <EditText
+            android:id="@+id/editNote"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1.8"
+
+            android:textColor="#9e0d34" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:background="#616161"
+            android:elevation="20dp"
+            android:src="@drawable/ic_add"
+            app:backgroundTint="#9e0d34"
+
+            />
+
+
+    </LinearLayout>
+
+    <!--<ListView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!---->
+    <!--</ListView>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="bottom"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:weightSum="2">-->
+
+    <!--<EditText-->
+    <!--android:layout_weight="2"-->
+    <!--android:id="@+id/editNote"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="150sp"-->
+    <!--android:hint="Enter Your Notes .."-->
+    <!--android:maxLength="20"-->
+    <!--android:maxLines="1"-->
+    <!--android:textColorHint="@color/white" />-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/fab"-->
+    <!--android:layout_weight="0.1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/editNote"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:elevation="20dp"-->
+    <!--android:src="@drawable/ic_add" />-->
+
+    <!--</LinearLayout>-->
+</RelativeLayout>

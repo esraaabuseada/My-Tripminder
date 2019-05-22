@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "55076937471",
+    "firebase_url": "https://my-tripminder.firebaseio.com",
+    "project_id": "my-tripminder",
+    "storage_bucket": "my-tripminder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55076937471:android:4dd7a333d4b42430",
+        "android_client_info": {
+          "package_name": "com.esraa.android.plannertracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55076937471-2llfngjsng3c4m922f3lkoc2jphu09rd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.esraa.android.plannertracker",
+            "certificate_hash": "6a08abdb88f8e1eb907a221d5967d65e2a4fee71"
+          }
+        },
+        {
+          "client_id": "55076937471-6brud7qjbsmd4omt32itc006vksb5mdv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoEkqO078XVE9GymdarLbz1Nqp5t6rzgY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55076937471-6brud7qjbsmd4omt32itc006vksb5mdv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Tripminder</string>
+    <string name="date">Your date is here</string>
+    <string name="dateBtn">Date</string>
+    <string name="timeBtn">Time</string>
+    <string name="time">Your time is here</string>
+    <string name="my_name_is">sheka@yahoo.com</string>
+    <string name="title_activity_main2">Trip Planner</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="trip_name">Trip name</string>
+    <string name="round_trip">Round Trip</string>
+    <string name="single_trip">Single Trip</string>
+    <string name="your_trip_type">Your Trip Type :</string>
+    <string name="view">View</string>
+    <string name="add_note">Add Note</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="start">Start</string>
+    <string name="addNote">Add Note</string>
+    <string name="tripDetails">Trip Details</string>
+    <string name="startText">From:</string>
+    <string name="endText">To:</string>
+</resources>
